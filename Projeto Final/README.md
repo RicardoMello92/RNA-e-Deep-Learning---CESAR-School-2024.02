@@ -27,7 +27,7 @@ O treinamento é feito utilizando backpropagation com a função de perda `Cross
 - [PyTorch](https://pytorch.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Scikit-learn](https://scikit-learn.org/)
-- [Matplotlib](https://matplotlib.org/)
+- [Matplotlib](https://matplotlib.org/) 
 
 
 ## 📦 Seções do Código
@@ -55,19 +55,14 @@ Relatório de Classificação no conjunto de teste completo:
     weighted avg           0.65      0.66      0.64       861
 
 
-66% de acurácia com os dados de teste
 
-Melhor f1-score para a classificação de pituitary tumor
-
-Pior f1-score para a classificação de meningioma_tumor 
 
 
 ## Conclusão
 
 Com base nas Métricas de classificação (acurácia, precisão, recall e F1-score) o modelo possui bom desempenho na classificação das imagens. 
 
-Os valores próximos de acurácia para os dados de treino e teste não indicam overfitting ou underfitting.
-
+Os valores próximos de acurácia para os dados de treino (0.68) e teste (0.66) não indicam overfitting ou underfitting.
 
 Com base nos valores de f1-score (média harmônica da precisão e recall) o modelo obteve melhores resultados para a identificação de pituitary_tumor e piores resultados para meningioma_tumor.
 
